@@ -16,18 +16,18 @@ class Allbert < Formula
   on_macos do
     on_arm do
       url "https://github.com/lexlapax/allbert-assist/releases/download/v0.62.0/allbert-v0.62.0-macos-arm64.tar.gz"
-      sha256 "REPLACE_MACOS_ARM64_SHA256"
+      sha256 "ddc5a1ea3c24b403554760ba991e303ca7d5f4d79112de7c9cda53362dd8e87f"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/lexlapax/allbert-assist/releases/download/v0.62.0/allbert-v0.62.0-linux-x64.tar.gz"
-      sha256 "REPLACE_LINUX_X64_SHA256"
+      sha256 "0afadd4bde01b3930ae94d5fc3b2b3e054546db22859fd5aec7d18dfbf4a39d5"
     end
     on_arm do
       url "https://github.com/lexlapax/allbert-assist/releases/download/v0.62.0/allbert-v0.62.0-linux-arm64.tar.gz"
-      sha256 "REPLACE_LINUX_ARM64_SHA256"
+      sha256 "faa16d89dda1dc655bf3496b937e0aa34d96d34e9a6210f8f4091ec39a3a4996"
     end
   end
 
