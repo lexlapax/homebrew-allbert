@@ -10,24 +10,24 @@
 class Allbert < Formula
   desc "Local-first personal AI assistant runtime, CLI, and web workspace"
   homepage "https://github.com/lexlapax/allbert-assist"
-  version "0.66.0"
+  version "1.0.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/lexlapax/allbert-assist/releases/download/v0.66.0/allbert-v0.66.0-macos-arm64.tar.gz"
-      sha256 "e0eb84eba4dea2087c74d09c2ece894b761e7f903425aaa51dc040c76b4c07f7"
+      url "https://github.com/lexlapax/allbert-assist/releases/download/v1.0.0/allbert-v1.0.0-macos-arm64.tar.gz"
+      sha256 "4a6df5feffc12bae54e9495533e74a38b06c0aee17ac7c7771fcac50f6f8cc48"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/lexlapax/allbert-assist/releases/download/v0.66.0/allbert-v0.66.0-linux-x64.tar.gz"
-      sha256 "ed19834c773f196a176c68a0365bdeec0cd3a539f2e14485312aa98d50e165c4"
+      url "https://github.com/lexlapax/allbert-assist/releases/download/v1.0.0/allbert-v1.0.0-linux-x64.tar.gz"
+      sha256 "b99f3d60240ff17197ae4f856a01b31a29fa91e2b855ee25ead99ed3ebf13e46"
     end
     on_arm do
-      url "https://github.com/lexlapax/allbert-assist/releases/download/v0.66.0/allbert-v0.66.0-linux-arm64.tar.gz"
-      sha256 "93aed0fbc5a25b25be60a47dd75b5d6e5cd90b7d187e3abe1c18fa17bbcaec13"
+      url "https://github.com/lexlapax/allbert-assist/releases/download/v1.0.0/allbert-v1.0.0-linux-arm64.tar.gz"
+      sha256 "ec5b69ad84a05ca122f51e166a3876bbde51ac0058c0dec631286f00b62b0584"
     end
   end
 
